@@ -19,8 +19,9 @@
     ],
     "paths": {
       "@/*": ["./*"]
-    }
+    },
+    "types": ["stripe"],
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/components/Context.js", "app/components/Context.js", "app/stripe/checkout_sessions/index.js", "app/stripe/checkoutForm.jsx", "app/ui/carrito/StripeCheckoutForm.js", "app/StripePagos/page.jsx", "app/api/checkout/route.js"],
   "exclude": ["node_modules"]
 }
