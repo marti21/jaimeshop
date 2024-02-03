@@ -23,7 +23,7 @@ const Product = () => {
     <div>
       <h2>Productos en el carrito:</h2>
       <ul>
-        {items.map((item) => (
+        {items.map((item: any) => (
           <li key={item.id}>{item.cantidad}{item.id}</li>
         ))}
       </ul>
