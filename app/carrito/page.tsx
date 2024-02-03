@@ -13,7 +13,7 @@ export default function Carrito() {
 
         <div className="w-full flex items-center justify-center">
             <Suspense fallback={<p>Cargando...</p>}>
-                <div className="w-[40%]">
+                <div className="w-[70%]">
                     <TableCart></TableCart>
                 </div>
             </Suspense>
